@@ -1,0 +1,90 @@
+#cabecera {
+    background-color: aquamarine;
+    padding: 2px;
+    margin: auto;
+}
+
+h1 {
+    font: bold 1.5em arial;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#navegador {
+    background-color: blueviolet;
+    padding: 0.2em;
+    display: inline-flex;
+    width: 100%;
+
+}
+
+#navegador li {
+    background-color: violet;
+    padding: 0.1em 1em 0.5em 1em;
+    margin: 0px 5px;
+    width: 12%;
+    float: left;
+    /*MUY IMPORTANTE: me permite mover los elementos*/
+    list-style-type: none;
+    /*Para quitar los puntos*/
+    position: relative;
+    text-align: center;
+}
+
+#navegador li:hover {
+    background-color: grey;
+}
+
+#navegador li a:link,
+#navegador li a:visited {
+    color: white;
+    /*color a las letras*/
+    text-decoration: none;
+    /*Quita los subrayados del texto*/
+}
+#subseccion1 li a:hover {
+    color:blue;
+}
+
+.option:hover{
+    color: blue;
+}
+
+#seccion1 li a:hover,
+#seccion1 li a:active {
+    color: #ffd7a9;
+    text-decoration: none;
+}
+
+.borrar {
+    clear: both;
+    /*clear indica que elementos flotantes no pueden flotar, both(der o izq)*/
+}
+
+#principal h1 {
+    font: bold 1.5em arial;
+    padding: 0.5em;
+}
+
+#principal p {
+    font: normal 0.9em arial;
+    text-align: justify;
+    text-indent: 3em;
+    /*sangría en la primera linea de un texto*/
+    padding: 0.5em 2em;
+}
+
+#subseccion1,
+#subseccion2,
+#subseccion3,
+#subseccion4 {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: black;
+
+    font: normal 0.8em arial;
+    padding: 0.2em 0.5em;
+    display: none;
+    /*se usa para ocultar y mostrar elementos sin eliminarlos*/
+}

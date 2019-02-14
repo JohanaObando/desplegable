@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MenúDesplegable</title>
+    <link rel="stylesheet" href="MenuDesplegable.css">
+</head>
+
+<body>
+    <div id="cabecera">
+        <h1>Página Principal</h1>
+    </div>
+    <div id="navegador">
+        <ul class="seccionesLeft">
+            <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+                <a href="#">Sección 1</a>
+
+                <div id="subseccion1">
+                    <p><a class="option" href="#" >Subsección 1-1</a></p>
+                    <p><a class="option" href="#">Subsección 1-2</a></p>
+                    <p><a class="option" href="#">Subsección 1-3</a></p>
+                    <p><a class="option" href="#">Subsección 1-4</a></p>
+                </div>
+            </li>
+
+            <li id="seccion2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+                <a href="#">Sección 2</a>
+                <div id="subseccion2">
+                    <p><a href="#">Subsección 2-1</a></p>
+                    <p><a href="#">Subsección 2-2</a></p>
+                    <p><a href="#">Subsección 2-3</a></p>
+                </div>
+            </li>
+
+            <li id="seccion3" onmouseover="ver(3)" onmouseout="ocultar(3)">
+                <a href="#">Sección 3</a>
+                <div id="subseccion3">
+                    <p><a href="#">Subsección 3-1</a></p>
+                    <p><a href="#">Subsección 3-2</a></p>
+                </div>
+            </li>
+
+            <li id="seccion4" onmouseover="ver(4)" onmouseout="ocultar(4)">
+                <a href="#">Sección 4</a>
+                <div id="subseccion4">
+                    <p><a href="#">Subsección 4-1</a></p>
+                </div>
+            </li>
+        </ul>
+
+        <div id="borrar"></div>
+        <!--Para que es este div??-->
+    </div>
+
+    <div id="principal">
+        <h1>Cuerpo Principal de la página</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, obcaecati culpa a excepturi deserunt eum
+            quis doloremque natus reiciendis maxime expedita eligendi accusantium, ex minima cumque modi sequi eveniet
+            recusandae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ratione est veritatis fuga illo a nulla,
+            reprehenderit sed eaque cumque molestiae reiciendis, vero sequi beatae quo, laudantium eveniet nobis
+            dolorem.</p>
+    </div>
+
+
+
+    <script src="MenuDesplegable.js"></script>
+</body>
+
+</html>
